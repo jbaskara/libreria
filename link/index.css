@@ -1,0 +1,21 @@
+.hero {
+  background-image: url('libri.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  color: white;
+  padding: 100px 20px;
+}
+
+.hero h1, .hero p {
+  text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.7);
+}
+
+.carousel-item .card {
+  transition: transform 0.5s ease;
+}
+
+
+html {
+  scroll-behavior: smooth;
+}
